@@ -1,146 +1,295 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Credit Form Card</title>
-</head>
-
-<body>
-
-  <div class="payment-title">
-    <h1>Payment Information</h1>
-  </div>
-
-  <div class="container preload">
-    <div class="creditcard">
-      <div class="front">
-        <div id="ccsingle"></div>
-        <svg version="1.1" id="cardfront" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px" y="0px" viewBox="0 0 750 471" style="enable-background:new 0 0 750 471;" xml:space="preserve">
-          <g id="Front">
-            <g id="CardBackground">
-              <g id="Page-1_1_">
-                <g id="amex_1_">
-                  <path id="Rectangle-1_1_" class="lightcolor grey" d="M40,0h670c22.1,0,40,17.9,40,40v391c0,22.1-17.9,40-40,40H40c-22.1,0-40-17.9-40-40V40
-                        C0,17.9,17.9,0,40,0z" />
-                </g>
-              </g>
-              <path class="darkcolor greydark"
-                d="M750,431V193.2c-217.6-57.5-556.4-13.5-750,24.9V431c0,22.1,17.9,40,40,40h670C732.1,471,750,453.1,750,431z" />
-            </g>
-            <text transform="matrix(1 0 0 1 60.106 295.0121)" id="svgnumber" class="st2 st3 st4">0123 4567 8910
-              1112</text>
-            <text transform="matrix(1 0 0 1 54.1064 428.1723)" id="svgname" class="st2 st5 st6">JOHN DOE</text>
-            <text transform="matrix(1 0 0 1 54.1074 389.8793)" class="st7 st5 st8">cardholder name</text>
-            <text transform="matrix(1 0 0 1 479.7754 388.8793)" class="st7 st5 st8">expiration</text>
-            <text transform="matrix(1 0 0 1 65.1054 241.5)" class="st7 st5 st8">card number</text>
-            <g>
-              <text transform="matrix(1 0 0 1 574.4219 433.8095)" id="svgexpire" class="st2 st5 st9">01/23</text>
-              <text transform="matrix(1 0 0 1 479.3848 417.0097)" class="st2 st10 st11">VALID</text>
-              <text transform="matrix(1 0 0 1 479.3848 435.6762)" class="st2 st10 st11">THRU</text>
-              <polygon class="st2" points="554.5,421 540.4,414.2 540.4,427.9 		" />
-            </g>
-            <g id="cchip">
-              <g>
-                <path class="st2" d="M168.1,143.6H82.9c-10.2,0-18.5-8.3-18.5-18.5V74.9c0-10.2,8.3-18.5,18.5-18.5h85.3
-                    c10.2,0,18.5,8.3,18.5,18.5v50.2C186.6,135.3,178.3,143.6,168.1,143.6z" />
-              </g>
-              <g>
-                <g>
-                  <rect x="82" y="70" class="st12" width="1.5" height="60" />
-                </g>
-                <g>
-                  <rect x="167.4" y="70" class="st12" width="1.5" height="60" />
-                </g>
-                <g>
-                  <path class="st12" d="M125.5,130.8c-10.2,0-18.5-8.3-18.5-18.5c0-4.6,1.7-8.9,4.7-12.3c-3-3.4-4.7-7.7-4.7-12.3
-                        c0-10.2,8.3-18.5,18.5-18.5s18.5,8.3,18.5,18.5c0,4.6-1.7,8.9-4.7,12.3c3,3.4,4.7,7.7,4.7,12.3
-                        C143.9,122.5,135.7,130.8,125.5,130.8z M125.5,70.8c-9.3,0-16.9,7.6-16.9,16.9c0,4.4,1.7,8.6,4.8,11.8l0.5,0.5l-0.5,0.5
-                        c-3.1,3.2-4.8,7.4-4.8,11.8c0,9.3,7.6,16.9,16.9,16.9s16.9-7.6,16.9-16.9c0-4.4-1.7-8.6-4.8-11.8l-0.5-0.5l0.5-0.5
-                        c3.1-3.2,4.8-7.4,4.8-11.8C142.4,78.4,134.8,70.8,125.5,70.8z" />
-                </g>
-                <g>
-                  <rect x="82.8" y="82.1" class="st12" width="25.8" height="1.5" />
-                </g>
-                <g>
-                  <rect x="82.8" y="117.9" class="st12" width="26.1" height="1.5" />
-                </g>
-                <g>
-                  <rect x="142.4" y="82.1" class="st12" width="25.8" height="1.5" />
-                </g>
-                <g>
-                  <rect x="142" y="117.9" class="st12" width="26.2" height="1.5" />
-                </g>
-              </g>
-            </g>
-          </g>
-          <g id="Back">
-          </g>
-        </svg>
-      </div>
-      <div class="back">
-        <svg version="1.1" id="cardback" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px" y="0px" viewBox="0 0 750 471" style="enable-background:new 0 0 750 471;" xml:space="preserve">
-          <g id="Front">
-            <line class="st0" x1="35.3" y1="10.4" x2="36.7" y2="11" />
-          </g>
-          <g id="Back">
-            <g id="Page-1_2_">
-              <g id="amex_2_">
-                <path id="Rectangle-1_2_" class="darkcolor greydark" d="M40,0h670c22.1,0,40,17.9,40,40v391c0,22.1-17.9,40-40,40H40c-22.1,0-40-17.9-40-40V40
-                    C0,17.9,17.9,0,40,0z" />
-              </g>
-            </g>
-            <rect y="61.6" class="st2" width="750" height="78" />
-            <g>
-              <path class="st3" d="M701.1,249.1H48.9c-3.3,0-6-2.7-6-6v-52.5c0-3.3,2.7-6,6-6h652.1c3.3,0,6,2.7,6,6v52.5
-                C707.1,246.4,704.4,249.1,701.1,249.1z" />
-              <rect x="42.9" y="198.6" class="st4" width="664.1" height="10.5" />
-              <rect x="42.9" y="224.5" class="st4" width="664.1" height="10.5" />
-              <path class="st5"
-                d="M701.1,184.6H618h-8h-10v64.5h10h8h83.1c3.3,0,6-2.7,6-6v-52.5C707.1,187.3,704.4,184.6,701.1,184.6z" />
-            </g>
-            <text transform="matrix(1 0 0 1 621.999 227.2734)" id="svgsecurity" class="st6 st7">985</text>
-            <g class="st8">
-              <text transform="matrix(1 0 0 1 518.083 280.0879)" class="st9 st6 st10">security code</text>
-            </g>
-            <rect x="58.1" y="378.6" class="st11" width="375.5" height="13.5" />
-            <rect x="58.1" y="405.6" class="st11" width="421.7" height="13.5" />
-            <text transform="matrix(1 0 0 1 59.5073 228.6099)" id="svgnameback" class="st12 st13">John Doe</text>
-          </g>
-        </svg>
-      </div>
+<html>
+  <head>
+    <title>Training Application Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <style>
+      html, body {
+      min-height: 100%;
+      }
+      body, div, form, input, select, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: #666;
+      line-height: 22px;
+      }
+      h1 {
+      position: absolute;
+      margin: 0;
+      font-size: 32px;
+      color: #fff;
+      z-index: 2;
+      }
+      h2 {
+      font-weight: 400;
+      }
+      .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 20px;
+      }
+      form {
+      width: 100%;
+      padding: 20px;
+      border-radius: 6px;
+      background: #fff;
+      box-shadow: 0 0 20px 0 #095484; 
+      }
+      .banner {
+      position: relative;
+      height: 210px;
+      background-image: url("/uploads/media/default/0001/01/3f0d2969f2cffeb123ab1a6fa7408bf87bd34bd3.jpeg");  
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+      .banner::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.4); 
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      }
+      input, select {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      }
+      input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      }
+      select {
+      width: 100%;
+      padding: 7px 0;
+      background: transparent;
+      }
+      .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder, a {
+      color: #095484;
+      }
+      .item input:hover, .item select:hover {
+      border: 1px solid transparent;
+      box-shadow: 0 0 6px 0 #095484;
+      color: #095484;
+      }
+      .item {
+      position: relative;
+      margin: 10px 0;
+      }
+      input[type="date"]::-webkit-inner-spin-button {
+      display: none;
+      }
+      .item i, input[type="date"]::-webkit-calendar-picker-indicator {
+      position: absolute;
+      font-size: 20px;
+      color: #a9a9a9;
+      }
+      .item i {
+      right: 2%;
+      top: 30px;
+      z-index: 1;
+      }
+      [type="date"]::-webkit-calendar-picker-indicator {
+      right: 1%;
+      z-index: 2;
+      opacity: 0;
+      cursor: pointer;
+      }
+      input[type=checkbox]  {
+      display: none;
+      }
+      label.check {
+      position: relative;
+      display: inline-block;
+      margin: 5px 20px 10px 0;
+      cursor: pointer;
+      }
+      .question span {
+      margin-left: 30px;
+      }
+      span.required {
+      margin-left: 0;
+      color: red;
+      }
+      label.check:before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 0;
+      width: 16px;
+      height: 16px;
+      border-radius: 2px;
+      border: 1px solid #095484;
+      }
+      input[type=checkbox]:checked + .check:before {
+      background: #095484;
+      }
+      label.check:after {
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: 4px;
+      width: 8px;
+      height: 4px;
+      border: 3px solid #fff;
+      border-top: none;
+      border-right: none;
+      transform: rotate(-45deg);
+      opacity: 0;
+      }
+      input[type=checkbox]:checked + label:after {
+      opacity: 1;
+      }
+      .btn-block {
+      margin-top: 10px;
+      text-align: center;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      background: #095484;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background: #0666a3;
+      }
+      @media (min-width: 568px) {
+      .name-item, .city-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      }
+      .name-item input, .city-item input {
+      width: calc(50% - 20px);
+      }
+      .city-item select {
+      width: calc(50% - 8px);
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="/">
+        <div class="banner">
+          <h1>Training Application Form</h1>
+        </div>
+        <h2>Applicant Details</h2>
+        <div class="item">
+          <p>Name</p>
+          <div class="name-item">
+            <input type="text" name="name" placeholder="First"/>
+            <input type="text" name="name" placeholder="Last"/>
+          </div>
+        </div>
+        <div class="item">
+          <p>Phone</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Fax</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Email</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Company name</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Address</p>
+          <input type="text" name="name" placeholder="Street address" />
+          <input type="text" name="name" placeholder="Street address line 2" />
+          <div class="city-item">
+            <input type="text" name="name" placeholder="City" />
+            <input type="text" name="name" placeholder="Region" />
+            <input type="text" name="name" placeholder="Postal / Zip code" />
+            <select>
+              <option value="">Country</option>
+              <option value="1">Russia</option>
+              <option value="2">Germany</option>
+              <option value="3">France</option>
+              <option value="4">Armenia</option>
+              <option value="5">USA</option>
+            </select>
+          </div>
+        </div>
+        <h2>Course Details</h2>
+        <div class="item">
+          <p>Course Code</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Location</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Start Date</p>
+          <input type="date" name="bdate"/>
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <h2>Distributor Details</h2>
+        <div class="item">
+          <p>Contact Name</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Distributor Name</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Distributor Address</p>
+          <input type="text" name="name" placeholder="Street address" />
+          <input type="text" name="name" placeholder="Street address line 2" />
+          <div class="city-item">
+            <input type="text" name="name" placeholder="City" />
+            <input type="text" name="name" placeholder="Region" />
+            <input type="text" name="name" placeholder="Postal / Zip code" />
+            <select>
+              <option value="">Country</option>
+              <option value="1">Russia</option>
+              <option value="2">Germany</option>
+              <option value="3">France</option>
+              <option value="4">Armenia</option>
+              <option value="5">USA</option>
+            </select>
+          </div>
+        </div>
+        <div class="item">
+          <p>Phone</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="item">
+          <p>Fax</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="question">
+          <p>Privacy Policy<span class="required">*</span></p>
+          <div class="question-answer checkbox-item">
+            <div>
+              <input type="checkbox" value="none" id="check_1" name="check" required/>
+              <label for="check_1" class="check"><span>I agree to the <a href="https://www.w3docs.com/privacy-policy">privacy policy.</a></span></label>
+            </div>
+          </div>
+        </div>
+        <div class="btn-block">
+          <button type="submit" href="/">Send</button>
+        </div>
+      </form>
     </div>
-  </div>
-  <div class="form-container">
-    <div class="field-container">
-      <label for="name">Name</label>
-      <input id="name" maxlength="20" type="text">
-    </div>
-    <div class="field-container">
-      <label for="cardnumber">Card Number</label><span id="generatecard">generate random</span>
-      <input id="cardnumber" type="text" pattern="[0-9]*" inputmode="numeric">
-      <svg id="ccicon" class="ccicon" width="750" height="471" viewBox="0 0 750 471" version="1.1"
-        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-
-      </svg>
-    </div>
-    <div class="field-container">
-      <label for="expirationdate">Expiration (mm/yy)</label>
-      <input id="expirationdate" type="text" pattern="[0-9]*" inputmode="numeric">
-    </div>
-    <div class="field-container">
-      <label for="securitycode">Security Code</label>
-      <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric">
-    </div>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js"></script>
-  <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
